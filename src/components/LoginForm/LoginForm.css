@@ -1,0 +1,18 @@
+.login-card {
+    min-height: 40vh;
+    padding: 20px;
+}
+
+.registerMessage {
+    margin-top: 10vh;
+}
+
+.margin-top-10{
+    margin-top:10rem !important
+}
+/* 
+.login-main-logo{
+    background: url('../../images/ma-logo.svg');
+    margin: 0 auto;
+    width: 140px;
+} */

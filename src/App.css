@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background: #eee;
 }
 
 .App-logo {
@@ -35,4 +36,79 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.side-bar {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  height: 100vh;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1), 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.side-bar-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  color: whitesmoke;
+  background-color: #2d383a;
+  border-bottom: 5px solid crimson;
+}
+
+.side-bar-header h1 {
+  margin: 0;
+  font-size: 36pt;
+}
+
+.side-bar-body {
+  padding-left: 10px;
+}
+
+#api-data {
+  width: 90vw;
+  padding-left: 30px;
+  padding-top: 30px;
+  overflow-y: scroll;
+}
+
+.api-link {
+  padding: 10px;
+  font-size: 12pt;
+  transition: all .1s ease;
+  border-bottom: 1px solid #ddd;
+}
+
+.api-link:hover {
+  cursor: pointer;
+  background: #ddd;
+  transition: all .1s ease;
+}
+/* .App {
+  text-align: center;
+}
+
+.hv-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.side-bar-body{
+  overflow-y: scroll;
+}
+
+.active{
+  background: #eee;;
+}
+
+/* Hide Authorize button  */
+.swagger-ui .btn.authorize  {
+  display: none !important;
 }
